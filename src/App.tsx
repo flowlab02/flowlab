@@ -36,7 +36,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'ABOUT', href: '#about' },
     { name: 'WORKS', href: '#works' },
-    { name: 'SERVICES', href: '#services' },
+    { name: 'SERVICES', href: '#strengths' },
     { name: 'PROCESS', href: '#process' },
     { name: 'PRODUCT', href: '#product' },
     { name: 'CONTACT', href: '#contact' },
@@ -287,7 +287,7 @@ export default function App() {
       </section>
 
       {/* Strengths Section */}
-      <section className="py-32 bg-white/5">
+      <section id="strengths" className="py-32 bg-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeader 
             number="02"
@@ -597,7 +597,7 @@ export default function App() {
                 type="submit"
                 className="w-full py-4 bg-brand-ink text-brand-bg text-xs font-bold tracking-widest uppercase hover:opacity-90 transition-opacity mt-4"
               >
-                SEND MESSAGE
+                상담 신청하기
               </button>
             </form>
           </div>
