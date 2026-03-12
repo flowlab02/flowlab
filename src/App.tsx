@@ -572,19 +572,6 @@ export default function App() {
                 />
               </div>
               <div>
-                <label className="block text-[10px] uppercase tracking-widest opacity-40 mb-2">Plan</label>
-                <select 
-                  name="plan"
-                  className="w-full bg-transparent border-b border-brand-line py-2 focus:border-brand-ink outline-none transition-colors appearance-none"
-                >
-                  <option className="bg-brand-bg" value="">상품 선택</option>
-                  <option className="bg-brand-bg" value="기본형">기본형</option>
-                  <option className="bg-brand-bg" value="확장형">확장형</option>
-                  <option className="bg-brand-bg" value="고급형">고급형</option>
-                  <option className="bg-brand-bg" value="쇼핑몰">쇼핑몰</option>
-                </select>
-              </div>
-              <div>
                 <label className="block text-[10px] uppercase tracking-widest opacity-40 mb-2">Message</label>
                 <textarea 
                   name="message"
