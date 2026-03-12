@@ -339,22 +339,6 @@ export default function App() {
           />
         </div>
         <div className="max-w-7xl mx-auto px-6 space-y-12">
-          {/* First Portfolio Image (Collage 1) */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="w-full overflow-hidden rounded-lg border border-white/10"
-          >
-            <img 
-              src="https://raw.githubusercontent.com/flowlab02/flowlab/refs/heads/img/1.png" 
-              alt="Portfolio Collage 1" 
-              className="w-full h-[400px] md:h-[600px] lg:h-auto object-cover object-top"
-              referrerPolicy="no-referrer"
-            />
-          </motion.div>
-
           {/* Second Portfolio Image (Collage 2) */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
