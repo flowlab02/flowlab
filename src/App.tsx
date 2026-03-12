@@ -348,7 +348,7 @@ export default function App() {
             className="w-full overflow-hidden rounded-lg border border-white/10"
           >
             <img 
-              src="https://github.com/flowlab02/flowlab/blob/main/1.png?raw=true" 
+              src="https://raw.githubusercontent.com/flowlab02/flowlab/refs/heads/img/1.png" 
               alt="Portfolio Collage 1" 
               className="w-full h-[400px] md:h-[600px] lg:h-auto object-cover object-top"
               referrerPolicy="no-referrer"
@@ -364,7 +364,7 @@ export default function App() {
             className="w-full overflow-hidden rounded-lg border border-white/10"
           >
             <img 
-              src="https://github.com/flowlab02/flowlab/blob/main/2.png?raw=true" 
+              src="https://raw.githubusercontent.com/flowlab02/flowlab/refs/heads/img/2.png" 
               alt="Portfolio Collage 2" 
               className="w-full h-[400px] md:h-[600px] lg:h-auto object-cover object-top"
               referrerPolicy="no-referrer"
