@@ -170,16 +170,6 @@ export default function App() {
               Flow Lab은 기획부터 디자인, 개발, 그리고 런칭 후 운영까지 
               모든 과정에서 고객사와 긴밀하게 소통하며 최고의 결과물을 만들어냅니다.
             </p>
-            <div className="pt-8 border-t border-brand-line grid grid-cols-2 gap-8">
-              <div>
-                <div className="text-3xl font-light mb-1">150+</div>
-                <div className="text-xs tracking-widest opacity-60 uppercase">Projects Completed</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light mb-1">98%</div>
-                <div className="text-xs tracking-widest opacity-60 uppercase">Client Satisfaction</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
