@@ -35,7 +35,6 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'ABOUT', href: '#about' },
-    { name: 'WORKS', href: '#works' },
     { name: 'SERVICES', href: '#strengths' },
     { name: 'PROCESS', href: '#process' },
     { name: 'PRODUCT', href: '#product' },
@@ -319,34 +318,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* Portfolio Section */}
-      <section id="works" className="py-32 bg-brand-bg">
-        <div className="max-w-7xl mx-auto px-6 mb-20">
-          <SectionHeader 
-            number="03"
-            title="PORTFOLIO" 
-            subtitle="Flow Lab의 감각적인 포트폴리오를 확인해 보세요."
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-6 space-y-12">
-          {/* Second Portfolio Image (Collage 2) */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="w-full overflow-hidden rounded-lg border border-white/10"
-          >
-            <img 
-              src="https://raw.githubusercontent.com/flowlab02/flowlab/refs/heads/img/2.png" 
-              alt="Portfolio Collage 2" 
-              className="w-full h-[400px] md:h-[600px] lg:h-auto object-cover object-top"
-              referrerPolicy="no-referrer"
-            />
-          </motion.div>
-        </div>
-      </section>
-
       {/* Process Section */}
       <section id="process" className="py-32 px-6 max-w-7xl mx-auto relative overflow-hidden">
         {/* Decorative Flowing Shapes */}
@@ -358,7 +329,7 @@ export default function App() {
         ></motion.div>
 
         <SectionHeader 
-          number="04"
+          number="03"
           title="PROCESS" 
           subtitle="체계적이고 투명한 제작 과정을 통해 신뢰할 수 있는 파트너가 되어 드립니다."
         />
@@ -413,7 +384,7 @@ export default function App() {
       <section id="product" className="py-32 bg-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeader 
-            number="05"
+            number="04"
             title="PRODUCT" 
             subtitle="비즈니스 규모와 목적에 맞는 합리적인 상품 구성을 제안합니다."
           />
@@ -471,7 +442,7 @@ export default function App() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
             <SectionHeader 
-              number="06"
+              number="05"
               title="CONTACT" 
               subtitle="새로운 프로젝트를 시작할 준비가 되셨나요? Flow Lab이 당신의 아이디어를 현실로 만들어 드립니다."
             />
